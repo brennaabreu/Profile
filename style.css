@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+}
+
+
+.card-header img {
+    border-radius: 50%;
+    width: 180px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin-left: 17%;
+    transition: all 2s;
+
+}
+
+.card-header img:hover {
+    transform: scale(1.07); /* para deixar o icone maior qnd passar o mouse por cima*/
+    
+}
+
+.card {
+max-width: 370px;
+background: rgba(242, 242, 242, 0.1);
+border: white solid 0.2px;
+backdrop-filter: blur(10px);
+margin: auto;
+overflow-y: auto;
+position: relative;
+z-index: 1;
+display: block;
+flex-direction: column;
+align-items: center;
+padding: 20px 40px;
+box-shadow: 10px 5px 9px rgb(0, 0, 0, 34%);
+border-radius: 25px;
+margin-top: 170px;
+transition: all 02s;
+
+}
+
+.card:hover {
+    box-shadow: inset 10px 5px 9px rgb(0, 0, 0, 34%) ;
+  }
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/425119.png);
+    background-size: cover;
+    display: block;
+}
+
+p {
+    color: white;
+    font-size: 19px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+h2 {
+    align-items: center;
+    color: white;
+    margin-left: 20%;
+    font-size: 25px ;
+}
+
+li {
+    align-items: center;
+    margin-left: 35%;
+    border: none;
+    color: rgba(249, 244, 239, 45%);
+    font-size: 14px;
+    
+}
+
+a {
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    margin-left: 40px;
+    transition: all 2s;
+}
+a:hover {
+    transform: scale(1.2);
+     /* para deixar o icone maior qnd passar o mouse por cima*/
+     color: white;
+  }
